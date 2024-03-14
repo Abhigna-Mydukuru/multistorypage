@@ -1,0 +1,67 @@
+/* Common styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3a6fb5; /* Lighter background color */
+    font-size: 16px; /* Adjust as needed */
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.story {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin: 10px;
+    width: 200px; 
+    background-color: #6fc5bd; 
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(158, 164, 43, 0.1); 
+}
+
+.story img {
+    width: 100%; 
+    height: auto;
+    border-radius: 10px;
+}
+
+.story h3 {
+    margin-top: 10px;
+    font-size: 18px; 
+}
+
+.content {
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px; 
+    background-color: gold; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(22, 75, 93, 0.1); 
+    font-size: 18px; 
+}
+
+/* Individual story page styles */
+#story1 {
+    background-color: goldenrod; 
+}
+
+#story2 {
+    background-color: gold; 
+}
+
+#story3 {
+    background-color: yellowgreen; 
+}
+
+#story4 {
+    background-color: yellow; 
+}
+
